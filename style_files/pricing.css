@@ -27,6 +27,16 @@
   column-gap: 20px;
   font-family: "Inter", sans-serif;
 }
+@media (max-width: 1200px) {
+  .price-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 700px) {
+  .price-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 
 .card-price {
   background-color: #0d1b2a;
