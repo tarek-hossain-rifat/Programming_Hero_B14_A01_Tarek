@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+
+  height: 70px;
+  padding: 0 80px;
+  background-color: #ffcece;
+}
+
+.nav-mid {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-mid a {
+  text-decoration: none;
+  color: #575757FF;;
+  font-family: "Arimo", sans-serif;
+}
