@@ -1,0 +1,77 @@
+.ai-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: "Inter", sans-serif;
+
+  padding: 80px 20px;
+  background-color: #233a53;
+}
+
+.ai-head {
+  font-size: 55px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.ai-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #c3c3c3;
+  margin-bottom: 50px;
+}
+
+.sponsors-logo-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: auto;
+  align-items: center;
+
+  margin-bottom: 50px;
+}
+.solo-img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #0f172a;
+  padding: 25px;
+  border-radius: 12px;
+  transition: 0.3s;
+  filter: grayscale(100%);
+}
+.solo-img-div:hover {
+  transform: translateY(-5px);
+  filter: grayscale(0%);
+  background-color: #1e293b;
+}
+
+.solo-img-div img {
+  max-width: 100%;
+  height: 40px;
+  object-fit: contain;
+}
+
+.want-sponsor-text {
+  font-size: 18px;
+  color: #dfdfdf;
+  margin-bottom: 40px;
+}
+.sponsorship-btn {
+    padding: 12px 24px;
+    background-color: #f59e0b;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #2a284f;
+    transition: 0.3s;
+}
+.sponsorship-btn:hover {
+    background-color: #e7b051;
+    color: #5750d8;
+}
