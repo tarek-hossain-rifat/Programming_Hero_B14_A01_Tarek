@@ -1,0 +1,129 @@
+.price-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.price-head {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.notice {
+  font-size: 16;
+  font-family: "Inter", sans-serif;
+  color: #575757;
+  margin-bottom: 30px;
+}
+
+.price-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.card-price {
+  background-color: #0d1b2a;
+  color: white;
+  border-radius: 16px;
+  padding: 32px 28px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+}
+.card-features {
+  list-style: none;
+  margin: 0 0 28px;
+  padding: 0;
+}
+
+.card-features li {
+  position: relative;
+  padding-left: 20px;
+  color: #c3cad9;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+.card-features li::before {
+  content: "";
+  position: absolute;
+
+  border-radius: 50%;
+  background: #4d7cff;
+
+  left: 0;
+  top: 8px;
+  width: 6px;
+  height: 6px;
+}
+.card-features li:last-child {
+  margin-bottom: 0;
+}
+
+.card-lable {
+  font-size: 14px;
+  font-weight: 700;
+  color: #93c5fd;
+  letter-spacing: 0.5;
+  margin-bottom: 14px;
+}
+
+.card-price {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 1;
+  margin: 0;
+}
+
+.card-period {
+  font-size: 14px;
+  margin: 8px 0 20px;
+  color: #c3cad9;
+}
+
+.devider {
+  border: none;
+  margin: 0px;
+  margin-bottom: 20px;
+  border-top: 1px solid #7d8da7;
+}
+.buy-btn {
+  width: 100%;
+  padding: 14px 0;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #2f5be0;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.buy-btn:hover {
+  background-color: #2649c0;
+}
+
+.both {
+  background-color: #fff;
+  border: solid 2px #e5e7eb;
+}
+.both li {
+  color: #333333;
+}
+
+.us-btn {
+  border: solid 1px #0d1b2a;
+  background-color: #fff;
+  color: #0d1b2a;
+}
+.st-btn {
+  border: solid 1px #2563eb;
+  color: #2563eb;
+}

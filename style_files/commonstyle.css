@@ -4,15 +4,15 @@
 }
 
 .common-btn {
-    border: none;
-    padding: 10px 30px;
-    font-size: 15px;
-    font-family: "Inter", sans-serif;
-    color: #ffffff;
-    background-color: #1d4ed8FF;
-    border-radius: 10px;
+  border: none;
+  padding: 10px 30px;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  background-color: #1d4ed8ff;
+  border-radius: 10px;
 
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 .common-p {
