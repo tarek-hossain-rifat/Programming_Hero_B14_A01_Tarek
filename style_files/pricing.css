@@ -33,7 +33,6 @@
   color: white;
   border-radius: 16px;
   padding: 32px 28px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
 }
 .card-features {
   list-style: none;
@@ -119,11 +118,29 @@
 }
 
 .us-btn {
-  border: solid 1px #0d1b2a;
+  border: solid 1px #c8c8c8;
   background-color: #fff;
   color: #0d1b2a;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
 }
 .st-btn {
-  border: solid 1px #2563eb;
+  border: solid 1px #a7c3ff;
   color: #2563eb;
+}
+
+.us-btn:hover {
+  background-color: #f6f6f6;
+  
+
+}
+
+.st-team-price {
+  background-color: #ffffff;
+  color: #0D1B2A;
+}
+.st-team-period {
+  color: #888888;
+}
+.lable {
+  color: #888888;
 }
