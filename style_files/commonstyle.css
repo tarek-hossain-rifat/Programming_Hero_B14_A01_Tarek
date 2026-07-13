@@ -11,6 +11,8 @@
     color: #ffffff;
     background-color: #1d4ed8FF;
     border-radius: 10px;
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 .common-p {
